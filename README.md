@@ -1,15 +1,12 @@
 # receive_file_intent
 
-This is a fork of the original plugin form KasemJaffer. So thanks to him for the good work.
+`receive_file_intent` allows to receive file sharing intents for any file type.
 
-It changes the complete file handling, to accept any type of file instead of only some types.
-Every file is handled the same way.
-It is copied to the app group storage and the file path is shared into the app to be accessible within flutter.
+This repository is a fork of: https://github.com/KasemJaffer/receive_sharing_intent by
+KasemJaffer. It builds upon the work of Kruschak, allowing to receive sharing
+intents for any type of file.
 
-A flutter plugin that enables flutter apps to receive sharing photos, text and urls from other apps.
-
-Also, supports iOS Share extension and launching the host app automatically. 
-Check the provided example for more info.
+See issue https://github.com/KasemJaffer/receive_sharing_intent/issues/13 for
+more information.
 
 ![Alt Text](./example/demo.gif)
-
